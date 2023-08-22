@@ -21,11 +21,11 @@ function App() {
 
     const options = {
     method: 'POST',
-    url: 'https://simple-chatgpt-api.p.rapidapi.com/ask',
+    url: 'insert-url',
     headers: {
       'content-type': 'application/json',
-      'X-RapidAPI-Key': '8d493d71f0msh32a691079eb2435p13c483jsn3c9ad4e873e3',
-      'X-RapidAPI-Host': 'simple-chatgpt-api.p.rapidapi.com'
+      'X-sourceAPIName-Key': 'insert-key',
+      'X-sourceAPIName-Host': 'insert-host'
     },
     data: {
       // ******************      HERE  YOUR ALSO SEND ENTIRE QUESTION OF USER   ******************************
